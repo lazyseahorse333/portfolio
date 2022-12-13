@@ -1,0 +1,30 @@
+[
+  {
+    "category": "UI/UX",
+    "title": "Personas and Storyboarding",
+    "color": "#748ebe",
+    "link": "",
+    "description": "Observing real users interacting with an interface that is in public view, interviewing them about their expectations, experience, motives, and challenges using the interface, creating personas based on the users, and illustrating a storyboard for one of the personas by creating a four-quadrant empathy map, describing what users think, feel, say, and do for one archetypal character \u200Bthat will represent part of the spectrum of users observed."
+  },
+  {
+    "category": "Design",
+    "title": "Vizzly",
+    "color": "#d3d1d1",
+    "link": "https://www.figma.com/proto/1nShC6CDA7Wp7CebVq3dwt/a4?page-id=0%3A1&node-id=1%3A2&viewport=-1063%2C-451%2C0.37&scaling=scale-down&starting-point-node-id=1%3A2",
+    "description": "We worked in a group of 4 to design an interactive interface for an emerging startup. As a group we did a full process of mocking up a solution to the startup's concept. Iterative design process flow: sketching ideas of the interface, creating an interactive, high-fidelity prototype, conducting user testing on a final, revised prototype, and contacting the start up."
+  },
+  {
+    "category": "Web Bootstrap",
+    "title": "Good Reads",
+    "color": "#d0d2cf",
+    "link": "https://lazyseahorse333.github.io/lazyseahourse333.github.io/project.html#",
+    "description": "Practicing the workflow of redesigning a simple website. In this project we had to analyze and identify flaws in an existing interface, create low-fidelity and high-fidelity prototypes for various screen sizes, and build a responsive website based on those prototypes using HTML and CSS."
+  },
+  {
+    "category": "Web React",
+    "title": "Glen's Bakehouse",
+    "color": "#d3d3d4",
+    "link": "https://lazyseahorse333.github.io/react-studio/",
+    "description": "Observing real users interacting with an interface, interviewing them about their experiences, creating personas based on the users, and illustrating a storyboard for one of the personas."
+  }
+]
