@@ -15,7 +15,7 @@ export const PortfolioCard = (props) => {
   const y = useParallax(scrollYProgress, 50);
 
   const { item, idx } = props;
-  const [showHover, setShowHover] = useState(false);
+  const [showHover, setShowHover] = useState(true);
   return (
     <a href={item.link} target={'_blank'} rel={'noreferrer'}>
       <Card
@@ -70,7 +70,6 @@ export const PortfolioCard = (props) => {
                       <img height={'100%'} width={'100%'} alt={item.title} src={images[idx]} />
                     </motion.h2>
                   </Col>
-                </Row>
                 <AnimatePresence>
                   {showHover && (
                     <motion.div
@@ -92,12 +91,14 @@ export const PortfolioCard = (props) => {
                         width: '100%',
                       }}
                     >
-                      <Col span={8} offset={2}>
-                        <p style={{ color: 'white' }}>{item.description}</p>
+                      <Col style={{alignSelf: 'center', textAlign: 'left'}} span={16} offset={2}>
+                        <p style={{ color: 'white'}}>{item.description}</p>
+                        {/*<Row style={{marginBottom: '50px'}}/>*/}
                       </Col>
                     </motion.div>
                   )}
                 </AnimatePresence>
+                </Row>
               </motion.div>
             </>
           }
