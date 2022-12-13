@@ -15,7 +15,7 @@ export const PortfolioCard = (props) => {
   const y = useParallax(scrollYProgress, 50);
 
   const { item, idx } = props;
-  const [showHover, setShowHover] = useState(true);
+  const [showHover, setShowHover] = useState(false);
   return (
     <a href={item.link} target={'_blank'} rel={'noreferrer'}>
       <Card
