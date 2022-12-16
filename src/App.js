@@ -85,10 +85,10 @@ export const App = () => {
                         fontSize: '15px',
                       }}
                     >
-                      Follow me as I take you through the course I took at Brown University, where we started with the
-                      theory of user interaction and object design, then moved on to learning how to conceptualize and
-                      create user models, looked at user testing paradigms, and finally spent a lot of time working with
-                      various prototyping techniques, software, and actual web development.
+                      Over the past 3 months, we have studied various user behaviors on the web through our UI/UX course. 
+                      It included analysis of numerous websites to understand how psychology plays a significant role in 
+                      our day to day interaction with websites. My portfolio below covers a few case studies on design principles,
+                      accessibility standards, and user - web interactivity. Click below to learn more. 
                     </p>
                   </Row>
                 </Col>

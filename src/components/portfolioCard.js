@@ -7,7 +7,7 @@ import { useRef, useState } from 'react';
 import { AnimatePresence, motion, useScroll } from 'framer-motion';
 import { useParallax } from './useParallax';
 
-const images = [personas, rizzly, goodReads, glensBakery];
+const images = [rizzly, goodReads, glensBakery, personas];
 
 export const PortfolioCard = (props) => {
   const ref = useRef(null);
